@@ -1,0 +1,76 @@
+body {
+  background: black;
+  background-size: cover;
+  background-position: center;
+  color: silver;
+  text-align: center;
+}
+h1 { 
+  color: silver;
+  padding: 0px 100px;
+  font-size: 150%;
+    text-align: center;
+}
+.smaller-image {
+  width: 20%;
+  border-radius: 8px;
+  margin: 70px;
+}
+.link-image {
+  width: 20%;
+  display: block;
+  margin: auto;
+    padding: 10px;
+}
+.link-background {
+  background: gray
+}
+.thumbnail-image {
+  width: 45%;
+  padding: 10px;
+}
+p {
+  font-size: 150%;
+  color: silver;
+  padding: 0px 100px;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #666;
+}
+
+.active {
+background-color:#000000;
+}
+.nav-fixed {
+  position: fixed;
+}
+.contact-form {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.my-text {
+width: auto
+}
+
